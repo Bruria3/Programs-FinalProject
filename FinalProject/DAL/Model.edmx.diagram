@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="64cdbc34aa4e48bf943b5569e1db91d4" Name="Diagram1">
+        <EntityTypeShape EntityType="TamarChadad_BruriaGreenwald_FinalProjectModel.Category" Width="1.5" PointX="0.5" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TamarChadad_BruriaGreenwald_FinalProjectModel.File" Width="1.5" PointX="3" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TamarChadad_BruriaGreenwald_FinalProjectModel.FileType" Width="1.5" PointX="0.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TamarChadad_BruriaGreenwald_FinalProjectModel.Program" Width="1.5" PointX="3.125" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TamarChadad_BruriaGreenwald_FinalProjectModel.Rent" Width="1.5" PointX="0.5" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TamarChadad_BruriaGreenwald_FinalProjectModel.Response" Width="1.5" PointX="5.375" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TamarChadad_BruriaGreenwald_FinalProjectModel.sysdiagrams" Width="1.5" PointX="4.125" PointY="7.25" IsExpanded="false" />
+        <EntityTypeShape EntityType="TamarChadad_BruriaGreenwald_FinalProjectModel.User" Width="1.5" PointX="5.625" PointY="3.625" IsExpanded="true" />
+        <AssociationConnector Association="TamarChadad_BruriaGreenwald_FinalProjectModel.FK_Program_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="TamarChadad_BruriaGreenwald_FinalProjectModel.FK_File_FileType" ManuallyRouted="false" />
+        <AssociationConnector Association="TamarChadad_BruriaGreenwald_FinalProjectModel.FK_File_Program" ManuallyRouted="false" />
+        <AssociationConnector Association="TamarChadad_BruriaGreenwald_FinalProjectModel.FK_Renting_Renting" ManuallyRouted="false" />
+        <AssociationConnector Association="TamarChadad_BruriaGreenwald_FinalProjectModel.FK_Response_Response" ManuallyRouted="false" />
+        <AssociationConnector Association="TamarChadad_BruriaGreenwald_FinalProjectModel.FK_Table_1_User" ManuallyRouted="false" />
+        <AssociationConnector Association="TamarChadad_BruriaGreenwald_FinalProjectModel.FK_Response_User" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
